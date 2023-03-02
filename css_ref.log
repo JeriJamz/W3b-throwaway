@@ -1,0 +1,30 @@
+#this is the css ref sheet
+
+boxes are cool:
+    it formats the html
+    it goes like this:
+        each box got a content area (1)#INNER
+        w/ optimal surrounding padding(2)
+        A border(3)
+        and a Margin Area (4)#OUTER
+    #Note that each border is basically a ref to the last(it build off each other)
+    #now formatting make more sense
+    To change the sizes of these boxes you gotta call the edges:
+        Content(inner) edge, is the border of the content#think <p>
+        Padding edge, the padding btw content and the border #if its 0 the content and border can touch each other
+        Border edge, is the the actual box shape(use this the make it invisible)#if this is and padding are 0 it becomes the box's border box 
+        Margin or Outer edge , its the outer edge,
+        itll seperate this content from other content #if this, border, and padding = 0 then its called a box's Margin box
+    Each edge can be define by it four sides(top,left,right,bottem),
+    and by its Width and Height#the actual numeric values are a trip
+#gotta remember Margin are actually outside the box 
+Now for the "Numeric".(Properties):
+    You can use "Length".(px,inches,cm)#mayb mm
+    "percentage" #this is relative to the boxes
+    "auto",
+    lol this is a rabbit-hole so not rn,
+    also you can use neg values,#also top-bottem, left-right
+    "em" is also a thing but its 1em is just /twice the size of the font/ think power of two. 
+"Collapsing margin"
+
+

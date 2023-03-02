@@ -1,0 +1,53 @@
+#this is an html ref sheet
+
+"id" = 'Var' is on way to put identifier on things:
+    it gotta begin with (a-z,A-Z)
+    once things are id, typically you Manip it with a scripting lingo:
+        DOM method 'getElementById()' can get you an element
+    things that have an identifier.(id) can be called in style sheet,
+    import Ex()>
+        id="Paragraph1"#this is in html
+        #Paragraph1 {color:blue}#this is the css callback
+    Exit()<
+    Once something has the id tag it can become an anchor,
+    or a hyperlink:
+        It can become clickable and can jump to other lines in your program
+    import EX()>
+        <a href='#mainContent'>Skip to this content</a>#this would be the ancho9r ref and now its clickable, the # is need for the link
+        <div id='mainContent'>This is the content of this page</div>#this is the actual ref
+    Exit()<
+    One thing about the id attr is the naming convetion:
+        its easy to get the names mixed up since this can work with code, txt, pics, also std funcs might have the name of,
+        a var you want to use
+    #yall get why im a python/c type of guy lmaooooo. this is just html
+    #*id a headache ima tackle it and make some buttons and alerts when I code.
+    #* and put it on an Element
+
+You can add "Style".(like css) with html:
+    you can add:
+        font(size)
+        import Ex()>
+            <strong style = "font-family: Arial;#you add thie semi after ever arguement
+            font-size: 18px;">Example</strong>
+        Exit()<
+"Title" are kinda cool:
+    you can add em to elements:
+        import Ex()>
+            <p title = "Hey look I am a title tooltip!">
+                This is some text
+            </p>
+        Exit()<
+    When you over you mouse over this text itll read the title
+    #*      |*********************SIDE NOTE(so i dont forget what this do)***************|
+            I wonder if I can put the title over my mouse and have it do some cool effects
+
+    #*
+
+This is still a text file so you change the lang,
+or the keyboard output:
+    the < dir=> attr is how to call it
+"lang" is also an attr that can be called but you gotta know the lang extentsion
+
+
+
+
