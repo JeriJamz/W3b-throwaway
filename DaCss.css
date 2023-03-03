@@ -13,7 +13,7 @@ body{
 h1{
     font-family: Verdana;
     text-align: middle;
-    color: #b6a3bf;
+    color: #fffb96;
 }
 
 .MidDiv{
@@ -25,9 +25,13 @@ h1{
 .RgtBod{
     position: absolute;
     right: 0;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 #Rgtpre{
+    font-family: 'Courier New';
+    font-size: 14px;
     position: relative;
     text-align: left;
     background-color: #687f6c;
