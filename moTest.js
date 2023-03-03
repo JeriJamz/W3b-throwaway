@@ -29,10 +29,12 @@ global.setTimeout(() =>{//second in the stack, but its coded first
 
 setTimeout(() =>{//final output
     console.log('Timeout Two Times');
-    clearInterval(int);
+    clearInterval(int);//(1)this is called last, the claer is here bc int is behind it(4)js is gonna jmp here and terminate whatever argument is in the method 
 }, 6000);
 
+/*clear int is high lvl. U pay attetion...follow the numbers*/
+
 const int = setInterval(() =>{//first in the stack repeats twices(like timer),Then three times
-    console.log('This is a repeat')
-}, 1000)//every second
+    console.log('This is a repeat')//(3)pretend we put jmp,32 at line 40
+}, 1000)//every second(2)int is stuck in a 4eva loop. Its like playing in asm
 
