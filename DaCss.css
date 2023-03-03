@@ -16,7 +16,13 @@ h1{
     color: #b6a3bf;
 }
 
-#RgtBod{
+.MidDiv{
+    position: absolute;
+    background-color: #b967ff;
+    font-family: 'Gill Sans'
+}
+
+.RgtBod{
     position: absolute;
     right: 0;
 }
