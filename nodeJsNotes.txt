@@ -1,0 +1,14 @@
+#This is starting at Dynamic responses
+Dynamic Resonses:
+    Dynamic responses is really dealing with real time request:
+	Ima assume static is for more local Networks
+#also after reading all this stuff APIS seems like psudo-OS or shells. 
+#they handle really just handle request. Ima assume me making that Server is an API
+#when I make a User Interface that is an API
+    API really is the thing that pulls the data:
+	with proper authorization it would get you anything(Shouts out to the security ring)
+#looking at some ones likes or recent history(from your device) is basically what web APIs do
+    with the right lines of code you can make an API do certain style funtion:
+	Refer(Server2.js).
+
+
