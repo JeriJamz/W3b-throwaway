@@ -1,5 +1,7 @@
 /*This is supposed to make an Chat app
 
+BOOK WORK, BOOK WORK
+
 this is my first JS Application. I see why backend is important. 
 But jesus gotta be a better way
 
